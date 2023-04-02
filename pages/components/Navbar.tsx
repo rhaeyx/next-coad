@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import { RxCaretDown } from 'react-icons/rx';
 
 const Navbar = () => {
@@ -5,20 +7,21 @@ const Navbar = () => {
 		<nav className="bg-darkerblue font-primary">
 			<div className="container mx-auto">
 				<div className="flex items-center justify-between h-20">
-					<div className="flex-shrink-0 h-16">
-						<img
-							src="assets/coad-logo.png"
+					<div className="flex flex-shrink-0 h-16 w-16">
+						<Image
+							src="/assets/coad-logo.png"
 							alt="COA-D Logo"
-							className="h-full"
+							height={100}
+							width={100}
 						/>
 					</div>
 
 					<div className="hidden md:flex">
 						<ul className="flex space-x-16">
 							<li>
-								<a href="/" className="text-white hover:text-gray-300">
+								<Link href="/" className="text-white hover:text-gray-300">
 									Home
-								</a>
+								</Link>
 							</li>
 							<li>
 								<a href="/about" className="text-white hover:text-gray-300">
