@@ -29,12 +29,11 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li className="relative">
-								<Link
-									href="#"
+								<a
 									id="dropdown-link"
 									className="text-white hover:text-gray-300">
 									Services <RxCaretDown className="inline" size="20" />
-								</Link>
+								</a>
 								<ul
 									id="dropdown-list"
 									className="absolute right-0 mt-2 w-32 bg-gray-800 rounded-md shadow-lg z-10 hidden">
@@ -62,7 +61,9 @@ const Navbar = () => {
 								</ul>
 							</li>
 							<li>
-								<Link href="#" className="text-white hover:text-gray-300">
+								<Link
+									href="/offices"
+									className="text-white hover:text-gray-300">
 									Offices
 								</Link>
 							</li>

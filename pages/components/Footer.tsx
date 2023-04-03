@@ -93,6 +93,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
+			<script src="script.js"></script>
 		</footer>
 	);
 };
