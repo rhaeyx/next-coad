@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import coad_logo_white from '../../public/assets/coad-logo-white.png';
+
 const Footer = () => {
 	return (
 		<footer className="py-8 bg-darkerblue">
@@ -5,9 +8,9 @@ const Footer = () => {
 				<div className="flex justify-between">
 					<div className="mb-0">
 						<a href="#" className="flex items-center">
-							<img
-								src="assets/coad-logo-white.png"
-								className="h-32 mr-3"
+							<Image
+								src={coad_logo_white}
+								className="h-32 w-auto mr-3"
 								alt="COA-D Logo"
 							/>
 						</a>

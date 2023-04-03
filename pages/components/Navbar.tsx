@@ -24,46 +24,47 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li>
-								<a href="/about" className="text-white hover:text-gray-300">
+								<Link href="/about" className="text-white hover:text-gray-300">
 									About Us
-								</a>
+								</Link>
 							</li>
 							<li className="relative">
-								<a
+								<Link
+									href="#"
 									id="dropdown-link"
 									className="text-white hover:text-gray-300">
 									Services <RxCaretDown className="inline" size="20" />
-								</a>
+								</Link>
 								<ul
 									id="dropdown-list"
 									className="absolute right-0 mt-2 w-32 bg-gray-800 rounded-md shadow-lg z-10 hidden">
 									<li>
-										<a
+										<Link
 											href="#"
 											className="block px-4 py-2 text-white hover:bg-gray-700">
 											Option 1
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a
+										<Link
 											href="#"
 											className="block px-4 py-2 text-white hover:bg-gray-700">
 											Option 2
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a
+										<Link
 											href="#"
 											className="block px-4 py-2 text-white hover:bg-gray-700">
 											Option 3
-										</a>
+										</Link>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="#" className="text-white hover:text-gray-300">
+								<Link href="#" className="text-white hover:text-gray-300">
 									Offices
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
