@@ -1,4 +1,4 @@
-import { Montserrat, Playfair_Display } from '@next/font/google';
+import { Montserrat, Playfair_Display } from 'next/font/google';
 import type { AppProps } from 'next/app';
 
 import '@/styles/globals.css';
