@@ -23,9 +23,9 @@ const Offices = ({ offices }: any) => {
 							</p>
 
 							<div className="flex flex-wrap w-full justify-center">
-								{office.members.map((member: any) => (
+								{office.members.map((member: any, index: any) => (
 									<div
-										key={member.id}
+										key={index}
 										className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mb-16">
 										<Profile
 											image={member.pic}
@@ -61,9 +61,9 @@ const Offices = ({ offices }: any) => {
 							</p>
 
 							<div className="flex flex-wrap w-full justify-center">
-								{office.members.map((member: any) => (
+								{office.members.map((member: any, index: any) => (
 									<div
-										key={member.id}
+										key={index}
 										className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mb-16">
 										<Profile
 											image={member.pic}
@@ -76,6 +76,26 @@ const Offices = ({ offices }: any) => {
 							</div>
 						</div>
 					</div>
+
+					<svg className="w-full absolute top-0 " viewBox="0 0 900 600">
+						<defs>
+							<pattern
+								id="img1"
+								patternUnits="userSpaceOnUse"
+								width="100"
+								height="100">
+								<image
+									xlinkHref="assets/pattern-1-x.png"
+									x="0"
+									y="-22"
+									preserveAspectRatio="none"
+									width="100"
+									height="44"
+								/>
+							</pattern>
+						</defs>
+						<rect height="2px" width="100%" fill="url(#img1)" />
+					</svg>
 				</section>
 			))}
 		</div>
