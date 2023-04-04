@@ -1,11 +1,12 @@
+import coalpaca from '../public/assets/coalpaca.png';
+import Image from 'next/image';
+
 export default function Home() {
 	return (
 		<div>
 			{/* HERO */}
 			<section className="bg-white h-[calc(100vh-64px)] relative">
 				<div className="container mx-auto max-w-screen-xl overflow-y-auto px-4 py-32 flex items-center flex-col">
-					{/* <h1 className="text-7xl font-extrabold whitespace-nowrap tracking-widest ">PINAGHABING HANGARIN</h1>
-    <h2 className="text-3xl font-bold whitespace-nowrap font-secondary text-4xl tracking-widest">Council of Organizations of the Ateneo-Davao</h2> */}
 					<h1 className="text-7xl font-extrabold whitespace-nowrap tracking-widest absolute top-96">
 						PINAGHABING HANGARIN
 					</h1>
@@ -32,10 +33,10 @@ export default function Home() {
 						</button>
 					</a>
 				</div>
-				<img
-					src="/assets/coalpaca.png"
+				<Image
+					src={coalpaca}
 					alt="coa-lpaca"
-					className="absolute min-w-auto hidden md:hidden lg:flex h-[660px] right-0 -bottom-72"
+					className="absolute w-auto hidden md:hidden lg:flex h-[660px] right-0 -bottom-72"
 				/>
 			</section>
 

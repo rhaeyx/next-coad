@@ -1,4 +1,5 @@
-import React from 'react';
+import Image from 'next/image';
+import coadlogodark from '../public/assets/coad-logo-dark.png';
 
 const Organizations = () => {
 	return (
@@ -58,9 +59,10 @@ const Organizations = () => {
 							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
 								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
 									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<img
-											className="w-48 h-48 rounded-lg"
-											src="assets/coad-logo-dark.png"></img>
+										<Image
+											alt="organization logo"
+											src={coadlogodark}
+											className="w-48 h-48 rounded-lg"></Image>
 									</div>
 									<div className="text-center whitespace-nowrap py-4">
 										Org Name
@@ -70,9 +72,10 @@ const Organizations = () => {
 							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
 								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
 									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<img
-											className="w-48 h-48 rounded-lg"
-											src="assets/coad-logo-dark.png"></img>
+										<Image
+											alt="organization logo"
+											src={coadlogodark}
+											className="w-48 h-48 rounded-lg"></Image>
 									</div>
 									<div className="text-center whitespace-nowrap py-4">
 										Org Name
@@ -82,9 +85,10 @@ const Organizations = () => {
 							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
 								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
 									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<img
-											className="w-48 h-48 rounded-lg"
-											src="assets/coad-logo-dark.png"></img>
+										<Image
+											alt="organization logo"
+											src={coadlogodark}
+											className="w-48 h-48 rounded-lg"></Image>
 									</div>
 									<div className="text-center whitespace-nowrap py-4">
 										Org Name
@@ -94,9 +98,10 @@ const Organizations = () => {
 							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
 								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
 									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<img
-											className="w-48 h-48 rounded-lg"
-											src="assets/coad-logo-dark.png"></img>
+										<Image
+											alt="organization logo"
+											src={coadlogodark}
+											className="w-48 h-48 rounded-lg"></Image>
 									</div>
 									<div className="text-center whitespace-nowrap py-4">
 										Org Name
@@ -106,9 +111,10 @@ const Organizations = () => {
 							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
 								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
 									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<img
-											className="w-48 h-48 rounded-lg"
-											src="assets/coad-logo-dark.png"></img>
+										<Image
+											alt="organization logo"
+											src={coadlogodark}
+											className="w-48 h-48 rounded-lg"></Image>
 									</div>
 									<div className="text-center whitespace-nowrap py-4">
 										Org Name
@@ -118,9 +124,10 @@ const Organizations = () => {
 							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
 								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
 									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<img
-											className="w-48 h-48 rounded-lg"
-											src="assets/coad-logo-dark.png"></img>
+										<Image
+											alt="organization logo"
+											src={coadlogodark}
+											className="w-48 h-48 rounded-lg"></Image>
 									</div>
 									<div className="text-center whitespace-nowrap py-4">
 										Org Name

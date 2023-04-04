@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Script from 'next/script';
 import coad_logo_white from '../../public/assets/coad-logo-white.png';
 
 const Footer = () => {
@@ -93,7 +94,8 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<script src="script.js"></script>
+			{/* <script src="script.js"></script> */}
+			<Script src="script.js"></Script>
 		</footer>
 	);
 };

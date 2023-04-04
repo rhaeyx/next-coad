@@ -2,7 +2,7 @@ const Offices = ({ offices }: any) => {
 	return (
 		<div>
 			{offices.slice(0, 1).map((office: any) => (
-				<section className="bg-white relative ">
+				<section key={office.id} className="bg-white relative ">
 					<div className="flex container mx-auto flex-col">
 						<div className="flex flex-col w-full py-16 items-center">
 							<h1 className="text-darkblue text-4xl font-secondary tracking-wide font-semibold uppercase mb-16">
@@ -26,7 +26,9 @@ const Offices = ({ offices }: any) => {
 
 							<div className="flex flex-wrap w-full justify-center">
 								{office.members.map((member: any) => (
-									<div className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mt-16">
+									<div
+										key={member.id}
+										className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mt-16">
 										<div className="w-48 h-48 rounded-lg bg-gray-300 mb-4"></div>
 										<span className="text-center font-primary text-darkblue font-bold text-lg uppercase whitespace-nowrap mb-1">
 											{member.name}
@@ -46,7 +48,7 @@ const Offices = ({ offices }: any) => {
 			))}
 
 			{offices.slice(1).map((office: any) => (
-				<section className="bg-white relative ">
+				<section key={office.id} className="bg-white relative ">
 					<div className="flex container mx-auto flex-col">
 						<div className="flex flex-col w-full py-16 items-center">
 							<h1 className="text-darkblue text-4xl font-secondary tracking-wide font-semibold uppercase mb-16">
@@ -70,7 +72,9 @@ const Offices = ({ offices }: any) => {
 
 							<div className="flex flex-wrap w-full justify-center">
 								{office.members.map((member: any) => (
-									<div className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mt-16">
+									<div
+										key={member.id}
+										className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mt-16">
 										<div className="w-48 h-48 rounded-lg bg-gray-300 mb-4"></div>
 										<span className="text-center font-primary text-darkblue font-bold text-lg uppercase whitespace-nowrap mb-1">
 											{member.name}
