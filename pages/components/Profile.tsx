@@ -5,7 +5,7 @@ const Profile = ({ image, name, position, email }: any) => {
 		<>
 			<div className="w-48 h-48 rounded-lg mb-4 relative">
 				<Image
-					src={'/../public/assets/profile-images/' + image}
+					src={'/assets/profile-images/' + image}
 					alt="profile image"
 					className="w-auto h-auto rounded-md"
 					fill></Image>
