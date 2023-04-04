@@ -94,8 +94,7 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			{/* <script src="script.js"></script> */}
-			<Script src="script.js"></Script>
+			<script src="script.js" defer></script>
 		</footer>
 	);
 };
