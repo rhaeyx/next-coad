@@ -1,3 +1,5 @@
+import Profile from './components/Profile';
+
 const Offices = ({ offices }: any) => {
 	return (
 		<div>
@@ -8,19 +10,15 @@ const Offices = ({ offices }: any) => {
 							<h1 className="text-darkblue text-4xl font-secondary tracking-wide font-semibold uppercase mb-16">
 								{office.name}
 							</h1>
-							<div className="flex flex-col w-48 items-center mb-8">
-								<div className="w-48 h-48 rounded-lg bg-gray-300 mb-4"></div>
-								<span className="text-center font-primary text-darkblue font-bold text-lg uppercase whitespace-nowrap mb-1">
-									{office.head.name}
-								</span>
-								<span className="text-center font-primary text-darkblue font-light text-base whitespace-nowrap mb-1">
-									{office.head.position}
-								</span>
-								<span className="text-center font-primary text-black font-light text-base whitespace-nowrap mb-1">
-									{office.head.email}
-								</span>
+							<div className="flex flex-col w-48 items-center mb-16">
+								<Profile
+									image={office.head.pic}
+									name={office.head.name}
+									position={office.head.position}
+									email={office.head.email}
+								/>
 							</div>
-							<p className="text-black font-primary text-center w-3/5">
+							<p className="text-black font-primary text-center w-3/5 mb-16">
 								{office.description}
 							</p>
 
@@ -28,17 +26,13 @@ const Offices = ({ offices }: any) => {
 								{office.members.map((member: any) => (
 									<div
 										key={member.id}
-										className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mt-16">
-										<div className="w-48 h-48 rounded-lg bg-gray-300 mb-4"></div>
-										<span className="text-center font-primary text-darkblue font-bold text-lg uppercase whitespace-nowrap mb-1">
-											{member.name}
-										</span>
-										<span className="text-center font-primary text-darkblue font-light text-base whitespace-nowrap mb-1">
-											{member.position}
-										</span>
-										<span className="text-center font-primary text-black font-light text-base whitespace-nowrap mb-1">
-											{member.email}
-										</span>
+										className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mb-16">
+										<Profile
+											image={member.pic}
+											name={member.name}
+											position={member.position}
+											email={member.email}
+										/>
 									</div>
 								))}
 							</div>
@@ -54,19 +48,15 @@ const Offices = ({ offices }: any) => {
 							<h1 className="text-darkblue text-4xl font-secondary tracking-wide font-semibold uppercase mb-16">
 								{office.name}
 							</h1>
-							<div className="flex flex-col w-48 items-center mb-8">
-								<div className="w-48 h-48 rounded-lg bg-gray-300 mb-4"></div>
-								<span className="text-center font-primary text-darkblue font-bold text-lg uppercase whitespace-nowrap mb-1">
-									{office.head.name}
-								</span>
-								<span className="text-center font-primary text-darkblue font-light text-base whitespace-nowrap mb-1">
-									{office.head.position}
-								</span>
-								<span className="text-center font-primary text-black font-light text-base whitespace-nowrap mb-1">
-									{office.head.email}
-								</span>
+							<div className="flex flex-col w-48 items-center mb-16">
+								<Profile
+									image={office.head.pic}
+									name={office.head.name}
+									position={office.head.position}
+									email={office.head.email}
+								/>
 							</div>
-							<p className="text-black font-primary text-center w-3/5">
+							<p className="text-black font-primary text-center w-3/5 mb-16">
 								{office.description}
 							</p>
 
@@ -74,42 +64,18 @@ const Offices = ({ offices }: any) => {
 								{office.members.map((member: any) => (
 									<div
 										key={member.id}
-										className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mt-16">
-										<div className="w-48 h-48 rounded-lg bg-gray-300 mb-4"></div>
-										<span className="text-center font-primary text-darkblue font-bold text-lg uppercase whitespace-nowrap mb-1">
-											{member.name}
-										</span>
-										<span className="text-center font-primary text-darkblue font-light text-base whitespace-nowrap mb-1">
-											{member.position}
-										</span>
-										<span className="text-center font-primary text-black font-light text-base whitespace-nowrap mb-1">
-											{member.email}
-										</span>
+										className="flex flex-col w-48 items-center shrink-0 basis-[21%] mr-4 mb-16">
+										<Profile
+											image={member.pic}
+											name={member.name}
+											position={member.position}
+											email={member.email}
+										/>
 									</div>
 								))}
 							</div>
 						</div>
 					</div>
-
-					<svg className="w-full absolute top-0 " viewBox="0 0 900 600">
-						<defs>
-							<pattern
-								id="img1"
-								patternUnits="userSpaceOnUse"
-								width="100"
-								height="100">
-								<image
-									xlinkHref="assets/pattern-1-x.png"
-									x="0"
-									y="-22"
-									preserveAspectRatio="none"
-									width="100"
-									height="44"
-								/>
-							</pattern>
-						</defs>
-						<rect height="2px" width="100%" fill="url(#img1)" />
-					</svg>
 				</section>
 			))}
 		</div>
