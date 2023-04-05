@@ -62,9 +62,9 @@ const Navbar = () => {
 							</li>
 							<li>
 								<Link
-									href="/offices"
+									href="/organizations"
 									className="text-white hover:text-gray-300">
-									Offices
+									Organizations
 								</Link>
 							</li>
 						</ul>

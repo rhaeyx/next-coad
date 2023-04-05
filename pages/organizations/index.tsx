@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import coadlogodark from '../public/assets/coad-logo-dark.png';
+import coadlogodark from '../../public/assets/coad-logo-dark.png';
 
 const Organizations = () => {
 	return (
