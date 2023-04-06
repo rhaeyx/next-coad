@@ -1,7 +1,18 @@
 import Image from 'next/image';
-import coadlogodark from '../../public/assets/coad-logo-dark.png';
 
-const Organizations = () => {
+const Organizations = ({ organizations }: any) => {
+	let assemblages: any[] = [{ label: 'Assemblage: ', value: 'everything' }];
+	organizations.forEach((assemblage: any) =>
+		assemblages.push({
+			label: assemblage.assemblage,
+			value: assemblage.assemblage.toLowerCase(),
+		})
+	);
+	console.log(assemblages);
+
+	const [selectedAssemblage, setSelectedAssemblage] =
+		React.useState('everything');
+
 	return (
 		<div>
 			<section className="bg-white relative">
@@ -33,108 +44,60 @@ const Organizations = () => {
 
 						<div className="flex self-start mt-16">
 							<select
-								className="w-64 text-white bg-darkblue font-primary px-4 py-3 rounded-lg"
-								name="cluster">
-								<option value="" disabled selected>
-									Clusters:
-								</option>
-								<option value="cluster n">cluster n</option>
-								<option value="cluster n">cluster n</option>
-								<option value="cluster n">cluster n</option>
-								<option value="cluster n">cluster n</option>
+								value={selectedAssemblage}
+								className="w-auto text-white bg-darkblue font-primary px-4 py-3 rounded-lg"
+								onChange={(e) => {
+									setSelectedAssemblage(e.target.value);
+								}}>
+								{assemblages.map((assemblage, index) => (
+									<option key={index} value={assemblage.value}>
+										{assemblage.label}
+									</option>
+								))}
 							</select>
 						</div>
 
-						<h2 className="flex self-start font-primary text-lg text-black font-bold mt-12">
-							Cluster Name
-						</h2>
-						<p className="text-black font-primary text-justify">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
-							voluptas voluptates expedita reprehenderit culpa suscipit eum
-							porro a earum voluptatem quis deserunt, eligendi ducimus minima in
-							incidunt! Omnis, asperiores ullam!
-						</p>
-
-						<div className="flex flex-wrap">
-							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
-								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
-									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<Image
-											alt="organization logo"
-											src={coadlogodark}
-											className="w-48 h-48 rounded-lg"></Image>
-									</div>
-									<div className="text-center whitespace-nowrap py-4">
-										Org Name
-									</div>
-								</div>
-							</div>
-							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
-								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
-									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<Image
-											alt="organization logo"
-											src={coadlogodark}
-											className="w-48 h-48 rounded-lg"></Image>
-									</div>
-									<div className="text-center whitespace-nowrap py-4">
-										Org Name
-									</div>
-								</div>
-							</div>
-							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
-								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
-									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<Image
-											alt="organization logo"
-											src={coadlogodark}
-											className="w-48 h-48 rounded-lg"></Image>
-									</div>
-									<div className="text-center whitespace-nowrap py-4">
-										Org Name
+						<section>
+							{organizations.map((assemblage: any, index: any) => (
+								<div
+									key={index}
+									className={
+										selectedAssemblage === 'everything' ||
+										selectedAssemblage === assemblage.assemblage.toLowerCase()
+											? 'block'
+											: 'hidden'
+									}>
+									<h2 className="flex self-start font-primary text-lg text-black font-bold mt-12">
+										{assemblage.assemblage}
+									</h2>
+									<p className="text-black font-primary text-justify">
+										{assemblage.description}
+									</p>
+									<div className="flex flex-wrap">
+										{assemblage.organizations.map(
+											(organization: any, organization_index: any) => (
+												<div
+													key={organization_index}
+													className="flex flex-col items-center w-72 grow shrink-0 basis-[31%] mr-4 mt-16">
+													<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
+														<div className="border-b-2 border-darkblue w-full h-48 flex justify-center relative">
+															<Image
+																alt="organization logo"
+																src={'/assets/org-logos/' + organization.logo}
+																className="w-auto h-auto object-contain"
+																fill></Image>
+														</div>
+														<div className="text-center whitespace-nowrap py-4">
+															{organization.name}
+														</div>
+													</div>
+												</div>
+											)
+										)}
 									</div>
 								</div>
-							</div>
-							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
-								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
-									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<Image
-											alt="organization logo"
-											src={coadlogodark}
-											className="w-48 h-48 rounded-lg"></Image>
-									</div>
-									<div className="text-center whitespace-nowrap py-4">
-										Org Name
-									</div>
-								</div>
-							</div>
-							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
-								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
-									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<Image
-											alt="organization logo"
-											src={coadlogodark}
-											className="w-48 h-48 rounded-lg"></Image>
-									</div>
-									<div className="text-center whitespace-nowrap py-4">
-										Org Name
-									</div>
-								</div>
-							</div>
-							<div className="flex flex-col items-center max-w-[33%] grow shrink-0 basis-[31%] mr-4 mt-16">
-								<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
-									<div className="border-b-2 border-darkblue w-full flex justify-center">
-										<Image
-											alt="organization logo"
-											src={coadlogodark}
-											className="w-48 h-48 rounded-lg"></Image>
-									</div>
-									<div className="text-center whitespace-nowrap py-4">
-										Org Name
-									</div>
-								</div>
-							</div>
-						</div>
+							))}
+						</section>
 					</div>
 				</div>
 			</section>
@@ -143,3 +106,26 @@ const Organizations = () => {
 };
 
 export default Organizations;
+
+import path from 'path';
+import { promises as fs } from 'fs';
+import React from 'react';
+import { log } from 'console';
+export const getStaticProps = async () => {
+	// data directory
+	const dataDirectory = path.join(process.cwd(), 'data');
+
+	// read the json
+	const jsonData = await fs.readFile(
+		dataDirectory + '/organizations.json',
+		'utf8'
+	);
+
+	// parse
+	const data = JSON.parse(jsonData);
+
+	// return content
+	return {
+		props: { organizations: data },
+	};
+};
