@@ -88,7 +88,9 @@ const Organizations = ({ organizations }: any) => {
 																fill></Image>
 														</div>
 														<div className="text-center whitespace-nowrap py-4">
-															{organization.name}
+															{organization.name.length < 30
+																? organization.name
+																: organization.acronym.toUpperCase()}
 														</div>
 													</div>
 												</div>
