@@ -4,6 +4,7 @@
 		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 		"organizations": [
 			{
+				"acronym": "aac",
 				"name": "Ateneo Art Company",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
@@ -24,7 +25,176 @@
 				]
 			},
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "afcc",
+				"name": "Ateneo Filipino-Chinese Community",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "afc",
+				"name": "Ateneo Film Circle",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "ajkc",
+				"name": "Ateneo Japanese and Kendo Community",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "also",
+				"name": "Ateneo Lumad Students Organization",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "aps",
+				"name": "Ateneo Photographers' Society",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "isa",
+				"name": "Interdisciplinary Studies Association",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "salam",
+				"name": "SALAM: The Ateneo Muslim Society",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "sinikom",
+				"name": "Samahan ng mga Mag-aaral ng Sining at Komunikasyon",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "salem",
+				"name": "Society of Ateneo Literature and English Mavens",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -50,7 +220,8 @@
 		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 		"organizations": [
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "acil",
+				"name": "Ateneo Catechetical Instructions League",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -70,7 +241,8 @@
 				]
 			},
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "aclc",
+				"name": "Ateneo Christian Life Community",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -90,7 +262,92 @@
 				]
 			},
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "clm",
+				"name": "Campus Liturgical Ministries",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "cya",
+				"name": "Christ’s Youth in Action",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "reachers",
+				"name": "Reachers",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "subdom7",
+				"name": "Subdominant 7",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "yfc",
+				"name": "Youth for Christ",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -116,7 +373,8 @@
 		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 		"organizations": [
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "agrees",
+				"name": "Ateneo Green-Agripreneurs for Renewable and Eco-friendly Enterprises Society",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -136,7 +394,8 @@
 				]
 			},
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "amarc",
+				"name": "Ateneo Marketing Club",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -156,7 +415,8 @@
 				]
 			},
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "asms",
+				"name": "Ateneo Society of Management Students",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -176,7 +436,8 @@
 				]
 			},
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "jfinex",
+				"name": "Junior Finance Executives",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -196,7 +457,8 @@
 				]
 			},
 			{
-				"name": "Ateneo Art Company",
+				"acronym": "jpmap",
+				"name": "Junior People Management Association of the Philippines",
 				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
 				"logo": "defaultlogo.png",
 				"email": "email@addu.edu.ph",
@@ -213,6 +475,1221 @@
 					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
 					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
 					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "jpama",
+				"name": "Junior Philippine Association of Management Accountants",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "jpia",
+				"name": "Junior Philippine Institute of Accountants - ADDU Local Chapter",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			},
+			{
+				"acronym": "yes",
+				"name": "Young Entrepreneurs Society",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{ "id": "1", "name": "General Assembly 2023", "date": "6/23/2023" },
+					{ "id": "2", "name": "Magical Summit 2023", "date": "6/26/2023" },
+					{ "id": "3", "name": "Long Range Planning 2023", "date": "5/23/2023" }
+				]
+			}
+		]
+	},
+	{
+		"assemblage": "School of Business and Governance",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+		"organizations": [
+			{
+				"acronym": "asiem",
+				"name": "Ateneo Society of Industrial Engineering Majors",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "doric",
+				"name": "Doric: The Ateneo Architecture's Guild",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "fusee",
+				"name": "Federation of United Students of Electrical Engineering",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "jpiche",
+				"name": "Junior Philippine Institute of Chemical Engineers",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "jpice",
+				"name": "Junior Philippine Institute of Civil Engineers",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "jpsme",
+				"name": "Junior Philippine Society of Mechanical Engineers",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "lippad",
+				"name": "Liga ng mga Inhinyerong Panghimpapawid at Pangkalawakan ng Ateneo de Davao",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "processor",
+				"name": "Prominent Computer Engineering Students' Organization",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "selecomes",
+				"name": "Society of Electronics Engineering Students",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			}
+		]
+	},
+	{
+		"assemblage": "Science and Technology",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+		"organizations": [
+			{
+				"acronym": "accss",
+				"name": "Ateneo Circle of Computer Studies",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "addacs",
+				"name": "Ateneo de Davao Association of Chemistry Students",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "envico",
+				"name": "Environmental Science Community",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "pnsa",
+				"name": "Philippine Nursing Students\u2019 Association",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "tabs",
+				"name": "The Ateneo Biological Society",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			}
+		]
+	},
+	{
+		"assemblage": "Social Sciences and Education",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+		"organizations": [
+			{
+				"acronym": "aisso",
+				"name": "Ateneo International Studies Students Organization",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "aissa",
+				"name": "Ateneo Islamic Studies Students Association",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "feat",
+				"name": "Future Educators of Ateneo",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "jswap",
+				"name": "Junior Social Workers' Association of the Philippines",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "masa",
+				"name": "Mindanawon Anthropological Society of the Ateneo",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "samapula",
+				"name": "Samahan ng mga Mag-aaral ng Agham Pampulitika ng Ateneo",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			}
+		]
+	},
+	{
+		"assemblage": "Social Sciences and Education",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+		"organizations": [
+			{
+				"acronym": "agilas",
+				"name": "Ateneans for Governance, Innovation, Leadership, and Service",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "alc",
+				"name": "Ateneo Libulan Circle",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "bahaghari",
+				"name": "BAHAGHARI",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "crcy",
+				"name": "College Red Cross Youth",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "dyesabel",
+				"name": "Davao Youth's Environmentally Sustainable Advocacies Building and Empowering Lives",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "piglasapat",
+				"name": "Pinag-isang Lakas ng Samahan ng mga Progresibong Atenista",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			}
+		]
+	},
+	{
+		"assemblage": "Special Clubs",
+		"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+		"organizations": [
+			{
+				"acronym": "adc",
+				"name": "Ateneo Dance Crew",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "adduc",
+				"name": "Ateneo de Davao University Chorale",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "adv",
+				"name": "Ateneo Debate Varsity",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "arc",
+				"name": "Ateneo Repertory Company",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "aspac",
+				"name": "Ateneo Sidlak Performing Arts Collective",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "assf",
+				"name": "Ateneo Student Security Force",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "atenews",
+				"name": "Atenews",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
+				]
+			},
+			{
+				"acronym": "comelec",
+				"name": "COMELEC",
+				"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas voluptates expedita reprehenderit culpa suscipit eum porro a earum voluptatem quis deserunt, eligendi ducimus minima in incidunt! Omnis, asperiores ullam!",
+				"logo": "defaultlogo.png",
+				"email": "email@addu.edu.ph",
+				"facebook": "#",
+				"twitter": "#",
+				"instagram": "#",
+				"head": {
+					"pic": "defaultprofile.jpg",
+					"name": "Samantha Clara",
+					"position": "President",
+					"email": "smc@addu.edu.ph"
+				},
+				"events": [
+					{
+						"id": "1",
+						"name": "General Assembly 2023",
+						"date": "6/23/2023"
+					},
+					{
+						"id": "2",
+						"name": "Magical Summit 2023",
+						"date": "6/26/2023"
+					},
+					{
+						"id": "3",
+						"name": "Long Range Planning 2023",
+						"date": "5/23/2023"
+					}
 				]
 			}
 		]
