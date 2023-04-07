@@ -1,7 +1,20 @@
 import coalpaca from '../public/assets/coalpaca.png';
+import {
+	BsFillArrowLeftCircleFill,
+	BsFillArrowRightCircleFill,
+} from 'react-icons/bs';
 import Image from 'next/image';
 
-export default function Home() {
+export default function Home({ events }: any) {
+	const months: any[] = [];
+	events.forEach((month: any) => months.push(month.month));
+
+	const d = new Date();
+	const [selectedMonth, setSelectedMonth] = React.useState(d.getMonth());
+
+	console.log(months);
+	console.log(selectedMonth);
+
 	return (
 		<div>
 			{/* HERO */}
@@ -40,7 +53,7 @@ export default function Home() {
 				/>
 			</section>
 
-			<section className="bg-white h-[1024px] relative overflow-hidden">
+			<section className="bg-white h-auto relative overflow-hidden">
 				<div className="container w-[70%] mx-auto py-24 flex justify-center flex-col">
 					<div className="mx-auto">
 						<h2 className="text-5xl text-darkblue mb-8 font-bold text-left font-secondary tracking-wider">
@@ -51,163 +64,64 @@ export default function Home() {
 					<div
 						id="events"
 						className="px-24 pb-12 rounded border-solid border-2 border-[#113B58]">
-						<div id="month" className="mt-12">
-							<h3 className="text-4xl font-extrabold text-left text-yellow font-primary ">
-								January
-							</h3>
-							<div className="flex flex-wrap mt-4">
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
+						{events.map((month: any, month_index: any) => (
+							<div
+								key={month.month}
+								className={
+									(months[selectedMonth] === months[month_index]
+										? ''
+										: 'hidden') + ' mt-12 z-50'
+								}>
+								<div className="flex justify-around items-center mt-16 relative">
+									<button>
+										<BsFillArrowLeftCircleFill
+											className="text-darkblue h-10 w-10 hover:text-zinc-600 z-50"
+											onClick={(e) => {
+												if (selectedMonth > 1) {
+													setSelectedMonth(selectedMonth - 1);
+												}
+											}}
+										/>
+									</button>
+									<div className="w-64 text-center">
+										<h3 className="text-5xl font-extrabold text-yellow font-primary capitalize">
+											{month.month}
+										</h3>
+									</div>
+									<button>
+										<BsFillArrowRightCircleFill
+											className="text-darkblue h-10 w-10 hover:text-zinc-600 z-50"
+											onClick={(e) => {
+												if (selectedMonth < 11) {
+													setSelectedMonth(selectedMonth + 1);
+												}
+												console.log(selectedMonth);
+											}}
+										/>
+									</button>
 								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
+
+								<div className="flex flex-wrap mt-4 mx-auto">
+									{month.events.map((activity: any, index: any) => (
+										<div
+											key={index}
+											className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[48%] flex flex-col grow shrink-0 basis-[46%] mr-3 mt-5">
+											<h4 className="text-md text-darkblue font-secondary font-bold">
+												{activity.title}
+											</h4>
+											<p className="text-sm text-darkblue font-secondary">
+												{activity.datetime}
+											</p>
+										</div>
+									))}
 								</div>
 							</div>
-						</div>
-
-						<div id="month" className="mt-12">
-							<h3 className="text-4xl font-extrabold text-left text-yellow font-primary ">
-								February
-							</h3>
-							<div className="flex flex-wrap mt-4">
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-								<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[23%] flex flex-col grow shrink-0 basis-[21%] mr-3 mt-5">
-									<h4 className="text-md text-darkblue font-secondary font-bold">
-										Event Name
-									</h4>
-									<p className="text-sm text-darkblue font-secondary">
-										Sample Date
-									</p>
-								</div>
-							</div>
-						</div>
-
-						<div className="flex justify-center mt-16">
-							<button className="h-12 w-12 text-5xl text-white rounded-full bg-darkblue mr-24">
-								&lt;
-							</button>
-							<button className="h-12 w-12 text-5xl text-white rounded-full bg-darkblue">
-								&gt;
-							</button>
-						</div>
+						))}
 					</div>
 				</div>
 
 				<svg
-					className="h-[1024px] w-auto absolute top-0 -left-8 "
+					className="h-[1024px] absolute top-0 -left-8 pointer-events-none"
 					viewBox="0 0 900 600">
 					<defs>
 						<pattern
@@ -228,17 +142,17 @@ export default function Home() {
 					<path
 						fill="url(#img1)"
 						d="M105 0L97.2 14.3C89.3 28.7 73.7 57.3 75 85.8C76.3 114.3 94.7 142.7 97.7 171.2C100.7 199.7 88.3 228.3 78.5 257C68.7 285.7 61.3 314.3 56.5 343C51.7 371.7 49.3 400.3 54.2 428.8C59 457.3 71 485.7 76.8 514.2C82.7 542.7 82.3 571.3 82.2 585.7L82 600L0 600L0 585.7C0 571.3 0 542.7 0 514.2C0 485.7 0 457.3 0 428.8C0 400.3 0 371.7 0 343C0 314.3 0 285.7 0 257C0 228.3 0 199.7 0 171.2C0 142.7 0 114.3 0 85.8C0 57.3 0 28.7 0 14.3L0 0Z"
-						stroke-linecap="round"
-						stroke-linejoin="miter"
+						strokeLinecap="round"
+						strokeLinejoin="miter"
 					/>
 				</svg>
 				<svg
-					className="h-[1024px] w-auto absolute top-0 -right-8 rotate-180"
+					className="h-[1024px] absolute top-0 -right-8 rotate-180 pointer-events-none"
 					viewBox="0 0 900 600">
 					<defs>
 						<pattern
 							id="img1"
-							patternUnits="userSpaceOnUse"
+							patternUnits="objectBoundingBox"
 							width="100"
 							height="100">
 							<image
@@ -254,11 +168,31 @@ export default function Home() {
 					<path
 						fill="url(#img1)"
 						d="M105 0L97.2 14.3C89.3 28.7 73.7 57.3 75 85.8C76.3 114.3 94.7 142.7 97.7 171.2C100.7 199.7 88.3 228.3 78.5 257C68.7 285.7 61.3 314.3 56.5 343C51.7 371.7 49.3 400.3 54.2 428.8C59 457.3 71 485.7 76.8 514.2C82.7 542.7 82.3 571.3 82.2 585.7L82 600L0 600L0 585.7C0 571.3 0 542.7 0 514.2C0 485.7 0 457.3 0 428.8C0 400.3 0 371.7 0 343C0 314.3 0 285.7 0 257C0 228.3 0 199.7 0 171.2C0 142.7 0 114.3 0 85.8C0 57.3 0 28.7 0 14.3L0 0Z"
-						stroke-linecap="round"
-						stroke-linejoin="miter"
+						strokeLinecap="round"
+						strokeLinejoin="miter"
 					/>
 				</svg>
 			</section>
 		</div>
 	);
 }
+
+import path from 'path';
+import { promises as fs } from 'fs';
+import React from 'react';
+
+export const getStaticProps = async () => {
+	// data directory
+	const dataDirectory = path.join(process.cwd(), 'data');
+
+	// read the json
+	const jsonData = await fs.readFile(dataDirectory + '/events.json', 'utf8');
+
+	// parse
+	const data = JSON.parse(jsonData);
+
+	// return content
+	return {
+		props: { events: data },
+	};
+};

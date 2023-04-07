@@ -1,6 +1,7 @@
 TODO:
 
 - Change footer icons to react-icons
+- Change events json to just list of events and handle dates and month sorting dynamically
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
