@@ -77,7 +77,7 @@ export default function Home({ events }: any) {
 										<BsFillArrowLeftCircleFill
 											className="text-darkblue h-10 w-10 hover:text-zinc-600 z-50"
 											onClick={(e) => {
-												if (selectedMonth > 1) {
+												if (selectedMonth > 0) {
 													setSelectedMonth(selectedMonth - 1);
 												}
 											}}
