@@ -121,7 +121,7 @@ export default function Home({ events }: any) {
 				</div>
 
 				<svg
-					className="h-[1024px] absolute top-0 -left-8 pointer-events-none"
+					className="h-auto absolute top-0 -left-8 pointer-events-none"
 					viewBox="0 0 900 600">
 					<defs>
 						<pattern
@@ -147,7 +147,7 @@ export default function Home({ events }: any) {
 					/>
 				</svg>
 				<svg
-					className="h-[1024px] absolute top-0 -right-8 rotate-180 pointer-events-none"
+					className="h-auto absolute top-0 -right-8 rotate-180 pointer-events-none"
 					viewBox="0 0 900 600">
 					<defs>
 						<pattern
