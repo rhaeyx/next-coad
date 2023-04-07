@@ -8,7 +8,6 @@ const Organizations = ({ organizations }: any) => {
 			value: assemblage.assemblage.toLowerCase(),
 		})
 	);
-	console.log(assemblages);
 
 	const [selectedAssemblage, setSelectedAssemblage] =
 		React.useState('everything');
@@ -112,7 +111,7 @@ export default Organizations;
 import path from 'path';
 import { promises as fs } from 'fs';
 import React from 'react';
-import { log } from 'console';
+
 export const getStaticProps = async () => {
 	// data directory
 	const dataDirectory = path.join(process.cwd(), 'data');
