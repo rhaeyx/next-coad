@@ -59,7 +59,6 @@ const Organizations = ({ organizations }: any) => {
 						<section>
 							{organizations.map((assemblage: any, index: any) => (
 								<div
-									key={index}
 									className={
 										selectedAssemblage === 'everything' ||
 										selectedAssemblage === assemblage.assemblage.toLowerCase()
@@ -75,24 +74,27 @@ const Organizations = ({ organizations }: any) => {
 									<div className="flex flex-wrap">
 										{assemblage.organizations.map(
 											(organization: any, organization_index: any) => (
-												<div
+												<Link
 													key={organization_index}
-													className="flex flex-col items-center w-72 grow shrink-0 basis-[31%] mr-4 mt-16">
-													<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
-														<div className="border-b-2 border-darkblue w-full h-48 flex justify-center relative">
-															<Image
-																alt="organization logo"
-																src={'/assets/org-logos/' + organization.logo}
-																className="w-auto h-auto object-contain"
-																fill></Image>
-														</div>
-														<div className="text-center whitespace-nowrap py-4">
-															{organization.name.length < 30
-																? organization.name
-																: organization.acronym.toUpperCase()}
+													href={'/organizations/' + organization.acronym}
+													target="_blank">
+													<div className="flex flex-col items-center w-72 grow shrink-0 basis-[31%] mr-4 mt-16">
+														<div className="w-72 rounded-lg border-solid border-2 border-darkblue flex flex-col items-center">
+															<div className="border-b-2 border-darkblue w-full h-48 flex justify-center relative">
+																<Image
+																	alt="organization logo"
+																	src={'/assets/org-logos/' + organization.logo}
+																	className="w-auto h-auto object-contain"
+																	fill></Image>
+															</div>
+															<div className="text-center whitespace-nowrap py-4">
+																{organization.name.length < 30
+																	? organization.name
+																	: organization.acronym.toUpperCase()}
+															</div>
 														</div>
 													</div>
-												</div>
+												</Link>
 											)
 										)}
 									</div>
@@ -111,6 +113,7 @@ export default Organizations;
 import path from 'path';
 import { promises as fs } from 'fs';
 import React from 'react';
+import Link from 'next/link';
 
 export const getStaticProps = async () => {
 	// data directory
