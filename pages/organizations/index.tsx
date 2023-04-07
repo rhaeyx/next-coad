@@ -59,6 +59,7 @@ const Organizations = ({ organizations }: any) => {
 						<section>
 							{organizations.map((assemblage: any, index: any) => (
 								<div
+									key={index}
 									className={
 										selectedAssemblage === 'everything' ||
 										selectedAssemblage === assemblage.assemblage.toLowerCase()
