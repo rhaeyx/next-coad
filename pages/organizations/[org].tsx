@@ -66,41 +66,23 @@ const Organization = ({ organization }: any) => {
 						<div id="events" className="pb-12 mt-12 rounded">
 							<div id="month" className="">
 								<h3 className="text-4xl font-extrabold text-left text-yellow font-primary ">
-									Upcoming Events
+									{organization.events.length === 0
+										? 'No upcoming events for now.'
+										: 'Upcoming Events'}
 								</h3>
 								<div className="flex flex-wrap mt-4">
-									<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[48%] flex flex-col grow shrink-0 basis-[45%] mr-3 mt-5">
-										<h4 className="text-md text-darkblue font-secondary font-bold">
-											Event Name
-										</h4>
-										<p className="text-sm text-darkblue font-secondary">
-											Sample Date
-										</p>
-									</div>
-									<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[48%] flex flex-col grow shrink-0 basis-[45%] mr-3 mt-5">
-										<h4 className="text-md text-darkblue font-secondary font-bold">
-											Event Name
-										</h4>
-										<p className="text-sm text-darkblue font-secondary">
-											Sample Date
-										</p>
-									</div>
-									<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[48%] flex flex-col grow shrink-0 basis-[45%] mr-3 mt-5">
-										<h4 className="text-md text-darkblue font-secondary font-bold">
-											Event Name
-										</h4>
-										<p className="text-sm text-darkblue font-secondary">
-											Sample Date
-										</p>
-									</div>
-									<div className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[48%] flex flex-col grow shrink-0 basis-[45%] mr-3 mt-5">
-										<h4 className="text-md text-darkblue font-secondary font-bold">
-											Event Name
-										</h4>
-										<p className="text-sm text-darkblue font-secondary">
-											Sample Date
-										</p>
-									</div>
+									{organization.events.map((activity: any, index: any) => (
+										<div
+											key={index}
+											className="border-solid border border-[#F7BA44] rounded px-8 py-2 text-left max-w-[48%] flex flex-col grow shrink-0 basis-[45%] mr-3 mt-5">
+											<h4 className="text-md text-darkblue font-secondary font-bold">
+												{activity.name}
+											</h4>
+											<p className="text-sm text-darkblue font-secondary">
+												{activity.date}
+											</p>
+										</div>
+									))}
 								</div>
 							</div>
 						</div>
