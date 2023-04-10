@@ -12,9 +12,6 @@ export default function Home({ events }: any) {
 	const d = new Date();
 	const [selectedMonth, setSelectedMonth] = React.useState(d.getMonth());
 
-	console.log(months);
-	console.log(selectedMonth);
-
 	return (
 		<div>
 			{/* HERO */}
@@ -95,7 +92,6 @@ export default function Home({ events }: any) {
 												if (selectedMonth < 11) {
 													setSelectedMonth(selectedMonth + 1);
 												}
-												console.log(selectedMonth);
 											}}
 										/>
 									</button>
