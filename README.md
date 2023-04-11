@@ -1,6 +1,5 @@
 TODO:
 
-- Change footer icons to react-icons
 - Change events json to just list of events and handle dates and month sorting dynamically
 - Make a python script that would convert an excel template to each json data file
 
