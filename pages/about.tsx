@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import coalpaca from '../public/assets/coalpaca.png';
+import Link from 'next/link';
 
 const About = () => {
 	return (
@@ -148,12 +149,17 @@ const About = () => {
 							</p>
 						</div>
 						<div className="flex space-x-16 mt-8">
-							<button className="w-1/2 bg-yellow text-black px-8 py-4 rounded-md font-primary text-2xl hover:bg-darkblue z-10">
-								OFFICES
-							</button>
-							<button className="w-1/2 bg-yellow text-black px-8 py-4 rounded-md font-primary text-2xl hover:bg-darkblue z-10">
-								ASSEMBLAGES
-							</button>
+							<Link
+								href="/offices"
+								target="_blank"
+								className="w-1/2 bg-yellow text-black px-8 py-4 rounded-md font-primary text-2xl text-center hover:bg-darkblue z-10">
+								<button>OFFICES</button>
+							</Link>
+							<Link
+								href="/assemblages"
+								className="w-1/2 bg-yellow text-black px-8 py-4 rounded-md font-primary text-2xl text-center hover:bg-darkblue z-10">
+								<button>ASSEMBLAGES</button>
+							</Link>
 						</div>
 					</div>
 				</div>
