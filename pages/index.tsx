@@ -15,12 +15,12 @@ export default function Home({ events }: any) {
 	return (
 		<div>
 			{/* HERO */}
-			<section className="bg-white h-[calc(100vh-64px)] relative">
-				<div className="container mx-auto max-w-screen-xl overflow-y-auto px-4 py-32 flex items-center flex-col">
-					<h1 className="text-7xl font-extrabold whitespace-nowrap tracking-widest absolute top-96">
+			<section className="bg-white h-[calc(100vh-64px)] relative flex items-center justify-center bg-[url('/assets/home-bg.png')] bg-cover bg-no-repeat">
+				<div className="container mx-auto overflow-y-auto px-4 py-32 w-auto flex flex-col gap-16">
+					<h1 className="text-7xl text-white text-center font-extrabold whitespace-nowrap tracking-widest">
 						PINAGHABING HANGARIN
 					</h1>
-					<h2 className="font-bold whitespace-nowrap absolute bottom-32 font-secondary text-4xl tracking-widest">
+					<h2 className="font-light text-white text-center whitespace-nowrap font-secondary text-4xl tracking-widest">
 						Council of Organizations of the Ateneo-Davao
 					</h2>
 				</div>
@@ -37,11 +37,11 @@ export default function Home({ events }: any) {
 						hic, aspernatur distinctio, reiciendis quos amet deleniti magnam
 						odit provident voluptas, temporibus nulla doloribus repudiandae!
 					</p>
-					<a href="#">
+					<Link href="/about">
 						<button className="block mt-16 rounded bg-yellow px-8 py-3 text-md font-medium text-black shadow ">
 							LEARN MORE
 						</button>
-					</a>
+					</Link>
 				</div>
 				<Image
 					src={coalpaca}
@@ -176,6 +176,7 @@ export default function Home({ events }: any) {
 import path from 'path';
 import { promises as fs } from 'fs';
 import React from 'react';
+import Link from 'next/link';
 
 export const getStaticProps = async () => {
 	// data directory
